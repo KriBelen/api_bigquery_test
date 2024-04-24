@@ -1,1 +1,8 @@
-[]
+[
+  "tests/test_bigquery.py::TestBigQuery::test_empty_result_set",
+  "tests/test_bigquery.py::TestBigQuery::test_query_execution_error",
+  "tests/test_bigquery.py::TestBigQuery::test_run_bigquery_query",
+  "tests/test_bigquery.py::TestBigQuery::test_successful_query_execution",
+  "tests/test_storage.py::TestStorage::test_upload_exception",
+  "tests/test_storage.py::TestStorage::test_upload_file_to_storage"
+]

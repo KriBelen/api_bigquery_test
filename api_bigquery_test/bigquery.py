@@ -49,4 +49,5 @@ if __name__ == "__main__":
 
   # Print the results (optional, can be done within the function)
   for row in results:
-      print(row)
+    ID = row['ID']
+    print(ID)
