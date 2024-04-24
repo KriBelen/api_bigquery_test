@@ -1,0 +1,11 @@
+# requirements.txt
+poetryproject:
+  name: bigquery-example
+  version: "0.1.0"
+  description: "Esempio di connessione a BigQuery con Poetry"
+  authors:
+    - "Nome Cognome <email@example.com>"
+  license: "MIT"
+  dependencies:
+    google-cloud-bigquery: ^2.3.0
+    poetry: ^1.3.0
