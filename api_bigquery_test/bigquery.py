@@ -1,4 +1,3 @@
-import os
 import logging
 from google.cloud import bigquery
 
@@ -17,7 +16,7 @@ def run_bigquery_query(project_id, dataset_id, table_id):
       A list of rows containing the query results.
   """
 
-  # Configure basic logging (optional)
+  # Configure logging
   logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
   # Set environment variable (optional, can be handled elsewhere)
@@ -38,7 +37,7 @@ def run_bigquery_query(project_id, dataset_id, table_id):
 
 
 if __name__ == "__main__":
-  project_id = "training-gcp-309207"  # Replace with your project ID
+  project_id = "training-gcp-309207"
   dataset_id = "dataset_kristina"
   table_id = "example"
 
@@ -47,7 +46,7 @@ if __name__ == "__main__":
 
   logging.info("Table retrieved and queried correctly")
 
-  # Print the results (optional, can be done within the function)
+  # Print the results
   for row in results:
     ID = row['ID']
-    print(ID)
+    print("The result is: ID =", ID)

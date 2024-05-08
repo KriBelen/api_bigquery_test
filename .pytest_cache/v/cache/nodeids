@@ -1,4 +1,5 @@
 [
+  "tests/bigquery_test.py::TestRunBigqueryQuery::test_run_bigquery_query",
   "tests/test_bigquery.py::TestBigQuery::test_empty_result_set",
   "tests/test_bigquery.py::TestBigQuery::test_query_execution_error",
   "tests/test_bigquery.py::TestBigQuery::test_run_bigquery_query",
